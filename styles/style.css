@@ -66,14 +66,63 @@ button {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
-}
+	background: url("c:/Users/Guest/Desktop/bikes-for-refugees/images/header-bike.jpg");
 
+}
+.jumbotron p{
+	color: white;
+	font-size: medium; 
+}
+button{
+	background: rgb(248, 93, 32);
+	color: white;
+	border:1px solid #ce5f31;
+	border-radius: 0.6em;
+	font-size: 15px;
+}
+h1{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white;
+}
+.boxes{
+	display: flex;
+	justify-content: space-evenly;
+}
+.boxes div {
+	border:1px solid #e60b71;
+	padding: 5px;
+	border-radius: 5px;
+	color: rgb(44, 2, 61);
+	background: #cedaeb;
+}
+.article1{
+display: flex;
+max-width: 350px;
+max-height: 250px;
+flex-direction: column;
+flex-wrap: wrap;
+background: #f5efec;
+position: relative;
+left: 380px;
+padding: 8px;
+}
+.article2{
+	display: flex;
+	max-width: 350px;
+	max-height: 250px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background: #e6e2e1;
+	position: relative;
+	bottom: 175px;
+	padding: 8px;
+	}
 /* Headings */
 .heading-underline {
 	position: relative;
 	margin-bottom: 2em;
 	padding-bottom: 0.5em;
-	border-bottom: 1px solid #dccdc6;
+	border-bottom: 1px solid #f5e0d6;
 	font-size: 1rem;
 	font-weight: 600;
 	text-transform: uppercase;
